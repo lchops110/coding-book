@@ -14,7 +14,7 @@ struct ContentView: View {
             Circle()
                 .fill(/*@START_MENU_TOKEN@*/Color.red/*@END_MENU_TOKEN@*/)
                 
-  
+
 
         Label("you are awesome", systemImage: "42.circle")
             .padding(.all)
