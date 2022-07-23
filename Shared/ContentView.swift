@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         
         ZStack {
-            .fill(Color.blue)
             Circle()
                 .fill(/*@START_MENU_TOKEN@*/Color.red/*@END_MENU_TOKEN@*/)
                 
