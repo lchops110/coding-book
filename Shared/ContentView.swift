@@ -9,8 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ZStack {
+            .fill(Color.blue)
+            Circle()
+                .fill(/*@START_MENU_TOKEN@*/Color.red/*@END_MENU_TOKEN@*/)
+                
+  
+
+        Label("you are awesome", systemImage: "42.circle")
+            .padding(.all)
+            .font(.largeTitle)
+
+            
+
+            
+
+        }
+        
+        
+
     }
 }
 
